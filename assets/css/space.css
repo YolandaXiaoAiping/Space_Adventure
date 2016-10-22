@@ -1,0 +1,105 @@
+/*Remove default setting in browsers*/
+*{
+	margin:0px;
+	padding:0;
+	border:0;
+	vertical-align:baseline;
+}
+body{
+	text-align:center;
+}
+/*background*/
+#start_page{
+	width:480px;
+	height:640px;
+	background-image: url("../image/space2.jpg");
+	background-size:cover;
+}
+#game_page{
+	width:480px;
+	height:640px;
+	background-image: url("../image/space2.jpg");
+	background-size:cover;
+}
+/*Game Title*/
+.Space_title{
+	width:300px;
+	height:100px;
+	margin-left:90px;
+	-webkit-animation:mymove 5s infinite;
+	color:#4686e5;
+	padding-top:10%;
+}
+
+@-webkit-keyframes mymove{
+	70%{font:40px bold;}
+}
+/*score*/
+#score_text{
+	margin-top:40px;
+	color:#46bae5;
+	font-size:50px;
+}
+/*score*/
+#show_score{
+	margin:40px;
+	color:#46bae5;
+	font-size:50px;
+}
+/*button*/
+#start_button{
+	margin-top:10%;
+	display:inline-block;
+	height:80px;
+	width:200px;
+	font-size:24px;
+	cursor:pointer;
+	text-decoration:none;
+	outline:none;
+	color:white;
+	background-color:#46bae5;
+	border:none;
+	border-radius:15px;
+	-webkit-transition-duration:0.4s;
+	box-shadow:0 9px #999;
+}
+#start_button:hover{
+	background-color:#0889ae;
+}
+#start_button:active{
+	background-color: #2fbbe3;
+	box-shadow:0 5px #666;
+	transform:translateY(4px);
+}
+/*next button*/
+#next_button{
+	margin-top:10%;
+	display:inline-block;
+	height:80px;
+	width:200px;
+	font-size:24px;
+	cursor:pointer;
+	text-decoration:none;
+	outline:none;
+	color:white;
+	background-color:#46bae5;
+	border:none;
+	border-radius:15px;
+	-webkit-transition-duration:0.4s;
+	box-shadow:0 9px #999;
+}
+#next_button:hover{
+	background-color:#0889ae;
+}
+#next_button:active{
+	background-color: #2fbbe3;
+	box-shadow:0 5px #666;
+	transform:translateY(4px);
+}
+/*border*/
+canvas{
+	margin-top:15px;
+	border:3px solid #000000;
+}
+
+
